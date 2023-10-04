@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>Главная</title>
+   <meta charset="UTF-8">
+   <meta name="format-detection" content="telephone=no">
+   <!-- <style>body{opacity: 0;}</style> -->
+   <link rel="stylesheet" href="css/style.min.css?_v=20220917102901">
+   <link rel="shortcut icon" href="favicon.ico">
+   <!-- <meta name="robots" content="noindex, nofollow"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <div class="wrapper">
+      <!--Header--->
+      <header class="header">
+         <div class="header__container">
+            <div class="header__menu menu">
+               <nav class="menu__body ">
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="aboutUs.html" class="menu__link">О компании</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link menu__link_arrow">Услуги</a>
+                        <ul class="menu__sub-list">
+                           <li class="menu__sub-item"><a href="servisePage1.html" class="menu__sub-link">Презентации</a>
+                           </li>
+                           <li class="menu__sub-item"><a href="servisePage3.html" class="menu__sub-link">Логотипы</a>
+                           </li>
+                           <li class="menu__sub-item"><a href="servisePage2.html" class="menu__sub-link">Иллюстрации</a>
+                           </li>
+                           <li class="menu__sub-item"><a href="servisePage4.html" class="menu__sub-link">Фирменный
+                                 стиль</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="menu__item"><a href="advantage.html" class="menu__link">WiWi Club</a></li>
+                     <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                  </ul>
+               </nav>
+               <button type="button" class="menu__icon icon-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </button>
+            </div>
+            <div class="header__body body line">
+               <div class="body__content">
+                  <div class="body__text">
+                     <a href="index.html" class="body__logo" data-da=".header__menu,767.98"><img
+                           src="img/logoDesctop.svg" alt="WILD WIND"></a>
+                     <p class="body__label slogan">Насладитесь путешествием от задумки к реальности</p>
+                  </div>
+                  <a href="#" class="body__btn btn" data-da=".header__body,991.98" data-goto=".page__request"><span
+                        class="btn__title">Написать
+                        нам</span></a>
+               </div>
+               <div class="body__picture">
+                  <div class="body__img">
+                     <picture>
+                        <source srcset="img/main.webp" type="image/webp"><img src="img/main.png" alt="lorem">
+                     </picture>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="page ">
+         <!--Услуги-->
+         <div class="page__services services">
+            <div class="services__container ">
+               <div class="services__inner line">
+                  <h2 class="services__title title">Услуги</h2>
+                  <div class="services__card card">
+                     <div class="card__wrapper card__wrapper_service">
+                        <div class="card__inner page-bisnes">
+                           <div class="card__number blur"><span class="card__nums blur__nums">01</span></div>
+                           <div class="card__content">
+                              <h3 class="card__title ">Бизнес-презентация</h3>
+                              <p class="card__text">Погрузимся в Ваш бизнес, разработаем структуру презентации, напишем
+                                 тексты, создадим дизайн</p>
+                           </div>
+                        </div>
+                        <div class="card__inner page-logo">
+                           <div class="card__number blur"><span class="card__nums blur__nums">02</span></div>
+                           <div class="card__content">
+                              <h3 class="card__title ">Логотип</h3>
+                              <p class="card__text">Хотите масштабироваться и работать по крупному? Тогда мы
+                                 спроектируем
+                                 для Вас узнаваемый логотип</p>
+                           </div>
+                        </div>
+                        <div class="card__inner page-firmStyle">
+                           <div class="card__number blur"><span class="card__nums blur__nums">03</span></div>
+                           <div class="card__content">
+                              <h3 class="card__title ">Фирменный стиль</h3>
+                              <p class="card__text">Изучим рынок, потребности Вашей целевой аудитории и создадим стиль,
+                                 который веделит среди конкурентов</p>
+                           </div>
+                        </div>
+                        <div class="card__inner page-illus">
+                           <div class="card__number blur"><span class="card__nums blur__nums">04</span></div>
+                           <div class="card__content">
+                              <h3 class="card__title ">Иллюстрация</h3>
+                              <p class="card__text">Создаём эксклюзивные иллюстрации под Ваш проект, начиная от стикера
+                                 и
+                                 заканчивая книгами</p>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <!--Форма обратной связи-->
+         <div class="page__request request">
+            <div class="request__container">
+               <div class="request__inner">
+                  <h2 class="request__title title" data-da=".request__pictures,767.98">Заявка</h2>
+                  <div class="request__pictures">
+                     <picture>
+                        <source srcset="img/form.webp" type="image/webp"><img src="img/form.jpg" alt="form">
+                     </picture>
+                  </div>
+
+                  <div class="request__form ">
+                     <div class="form">
+                        <form action="#" id="form" class="form__body" data-dev data-popup-message="#form-message"
+                           action="endmail.php">
+                           <div class="form__item">
+                              <input i type="text" name="name" class="form__input _req" placeholder="ФИО" data-required>
+                           </div>
+                           <div class="form__item">
+                              <input type="tel" name="tel" class="form__input " placeholder="Номер телефона"
+                                 data-required>
+                           </div>
+                           <div class="form__item">
+                              <input id="formEmail" type="text" name="email" class="form__input _req _email"
+                                 placeholder="Электронная почта" data-required="email">
+                           </div>
+                           <div class="form__item">
+                              <select name="typeProject" class="form__select" data-show>
+                                 <option value="" selected>Тип проекта</option>
+                                 <option value="1">Бизнес-презентация</option>
+                                 <option value="2">Логотип</option>
+                                 <option value="3">Фирменный стиль</option>
+                                 <option value="4">Иллюстрация</option>
+                              </select>
+                           </div>
+                           <div class="form__item">
+                              <textarea cols="1" name="message" id="formMessage" class="form__input"
+                                 placeholder="Дополнительная информация"></textarea>
+                           </div>
+                           <button type="submit" class="form__button btn btn_white"><span
+                                 class="btn__title btn__title_white">Оставить
+                                 заявку</span></button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="request__social">
+                  <a href="#" class="request__link">
+                  </a>
+                  <a href="#" class="request__link">
+                  </a>
+                  <a href="#" class="request__link">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!--Footer-->
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__tm">
+               <p class="footer__text">© WiWi Studio Все права защищены</p>
+               <div data-spollers class="spollers">
+                  <div class="spollers__item">
+                     <button type="button" data-spoller class="spollers__title footer__link">Юридическая
+                        информация</button>
+                     <div class="spollers__body">
+                        <a href="#" class="footer__link footer__link_doc" data-popup="#politic">Политика
+                           конфидициальности</a>
+                        <a href="#" class="footer__link footer__link_doc">Согласие на обработку персональных данных</a>
+                        <p class="footer__text footer__text_doc">ИП Копосова М. В. | ИНН 667472679993 | ОГРНИП
+                           322508100403668|</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__logo">
+               <a href="index.html" class="footer__logo"><img src="img/logoFooter.svg" alt="WILD WIND"></a>
+            </div>
+            <div class="footer__contacts">
+               <a href="tel:+79264543110" class="footer__tel">+7 926 454 31 10</a>
+               <a href="mailto:help@wiwi_studio.ru" class="footer__email">help@wiwi_studio.ru</a>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <div id="politic" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+         <div class="popup__content">
+            <button data-close type="button" class="popup__close">X</button>
+            <div class="popup__text">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos ipsa quis magni odit praesentium
+               exercitationem, totam eveniet sunt adipisci ratione, excepturi repellat laborum, rem cumque aspernatur
+               minus? Minima non deserunt ea quibusdam dignissimos aut a laudantium ad. Alias tempora architecto
+               laudantium
+               magni officiis ex eligendi asperiores esse hic, voluptas omnis atque accusamus excepturi iusto. Natus
+               dolor,
+               debitis similique doloremque modi officia ducimus nam facilis, deserunt facere recusandae praesentium ut
+               veniam consequuntur quae dolorum cupiditate voluptas omnis laboriosam eos magnam quam eum? Corrupti unde
+               eaque odit provident deleniti modi iusto. Corrupti ipsum rem dignissimos eius cum similique autem quo
+               voluptatem!
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="form-message" aria-hidden="true" class="popup popup_form">
+      <div class="popup__wrapper popup__wrapper_form">
+         <div class="popup__content popup__content_form">
+            <button data-close type="button" class="popup__close popup__close_form"></button>
+            <div class="popup__text popup__text_form">
+               <div class="popup__img">
+               </div>
+               <p class="popup__title">
+                  Ваша заявка принята!
+               </p>
+               <p class="popup__sub-title">
+                  В ближайшее время менеджер свяжется с Вами.
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="js/app.js"></script>
+   
+</body>
+
+</html>
